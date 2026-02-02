@@ -17,7 +17,7 @@
   "portsAttributes": {
     "2718": {
       "label": "Marimo",
-      "onAutoForward": "openBrowser"
+      "onAutoForward": "openPreview"
     }
   }
 }
