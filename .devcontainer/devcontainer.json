@@ -5,7 +5,7 @@
     "ghcr.io/jsburckhardt/devcontainer-features/uv:1": {}
   },
   "postCreateCommand": "uv sync",
-  "postStartCommand": "nohup bash -c 'uv run marimo edit notebooks/lab00/lab00.py --host 0.0.0.0 --port 2718 --token-required false &'",
+  "postStartCommand": "nohup bash -c 'uv run marimo edit notebooks/lab00/lab00.py --host 0.0.0.0 --port 2718 --no-token &'",
   "customizations": {
     "vscode": {
       "extensions": [
